@@ -1,0 +1,32 @@
+- name: 'UBUNTU_PRECISE'
+  platform: 'UNIX'
+  architecture: 'I64'
+  clouds:
+  - name: 'Amazon'
+    regions:
+    - name: 'us-west-1'
+      image_id: 'ami-11111111'
+    - name: 'eu-west-1'
+      image_id: 'ami-22222222'
+  - name: 'Google'
+    regions:
+    - name: 'us-west-1'
+      image_id: 'centos-6-v20140926'
+    - name: 'eu-west-1'
+      image_id: 'coreos-alpha-324-4-0-v20140607'
+- name: 'UBUNTU_TRUSTY'
+  platform: 'UNIX'
+  architecture: 'I64'
+  clouds:
+  - name: 'Amazon'
+    regions:
+    - name: 'us-west-1'
+      image_id: 'ami-736e6536'
+    - name: 'eu-west-1'
+      image_id: 'ami-12345678'
+  - name: 'Joyent'
+    regions:
+    - name: 'us-east-1'
+      image_id: 'a6daab3317bf490e95a866854a7045d1'
+    - name: 'us-sw-1'
+      image_id: '8304fb5bac5242fc91bc00f44a1b4af4'

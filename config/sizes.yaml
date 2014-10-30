@@ -1,0 +1,14 @@
+- name: 'GENERAL_PURPOSE'
+  clouds:
+  - name: 'Amazon'
+    sizes: [ 't2.micro', 't2.small', 't2.medium', 'm3.medium', 'm3.large',
+             'm3.xlarge', 'm3.2xlarge']
+  - name: 'Joyent'
+    sizes: [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
+- name: 'COMPUTE_OPTIMIZED'
+  clouds:
+  - name: 'Amazon'
+    sizes: [ 'c3.large', 'c3.xlarge', 'c3.2xlarge', 'c3.4xlarge', 'c3.8xlarge' ]
+  - name: 'Joyent'
+    sizes: [ 'H', 'I', 'J', 'K', 'L' ]
+
